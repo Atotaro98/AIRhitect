@@ -1,0 +1,337 @@
+.fondocontacto{
+    background-image: url("../img/map.png"), url("../img/Rectangle14.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    height: 100%;
+
+}
+::placeholder{
+    color: #ea7a23;
+}
+
+textarea{
+    color: #ea7a23;
+}
+
+
+ .info{
+   margin-left: -40px;
+ }
+  
+  input[type=text], select, textarea{
+    width: 50%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: horizontal;
+    background-color: #504744;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    color: #ea7a23;
+  }
+
+  #mensaje {
+      width: 100%;
+  }
+  input[type=email], select, textarea{
+    width: 50%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: horizontal;
+    background-color: #504744;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    color: #ea7a23;
+  }
+  
+  input[type=submit] {
+    width: 10%;
+    padding: 9px 25px;
+    color: #504744;
+    background-color: #ea7a23;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 630px;
+  }
+  
+  input[type=submit]:hover {
+  opacity: 0.7;
+  }
+  
+  .contenidoconsulta {
+    
+    padding: 10px;
+    margin: 10px;
+    color: #ea7a23;
+    margin-left: 100px;
+  }
+  
+  .columna {
+    float: left;
+    width: 45%;
+    margin-top: 6px;
+    padding: 20px;
+
+    
+  }
+  
+  .wrap:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+
+
+  .texto_contacto_izq{
+      
+    margin-top: 50px;
+  
+   
+   width: 40%;
+ }
+ .texto_contacto_izq h2{
+     font-size: 30px;
+
+ }
+
+ .texto_contacto_der{
+
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 40%;
+    
+   
+}
+
+.texto_contacto_der h2{
+    font-size: 17px;
+    
+}
+
+.contacto_caja{
+   width: 50%;
+   display: flex;
+   word-spacing:10px;
+   line-height: 25px;
+
+}
+
+
+
+
+
+
+/* INICIO MEDIAQUERIES */
+
+@media screen and (max-width: 1440px) {
+  .fondocontacto{
+    background-image: url("../img/map.png"), url("../img/Rectangle14.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 40% 100%, 70% 100%;
+    background-position: right, left;
+    height: 100%;
+
+}
+
+input[type=submit] {
+  width: 20%;
+  margin-left: 328px;
+  
+}
+
+
+
+  }
+
+
+
+
+  @media screen and (max-width: 1024px) {
+    .fondocontacto{
+      background-image: url("../img/map.png"), url("../img/Rectangle14.png");
+      background-repeat: no-repeat, no-repeat;
+      background-size: 40% 100%, 70% 100%;
+      background-position: right, left;
+      height: 100%;
+  
+  }
+
+
+  .info{
+    margin-left: -30px;
+  }
+  
+  input[type=submit] {
+    width: 20%;
+    margin-left: 358px;
+    
+  }
+
+
+  input[type=text], select, textarea{
+    width: 85%;
+    
+  }
+
+
+  input[type=email], select, textarea{
+    width: 85%;
+    
+  }
+
+
+
+ 
+
+  #mensaje{
+      width: 120%;
+  }
+
+
+
+.contenidoconsulta{
+    margin-left: 0;
+}
+
+
+.contacto_caja{
+    margin-left: 150px;
+    width: 100%;
+    display: block;
+    word-spacing: normal;
+    line-height: normal;
+    
+}
+
+.texto_contacto_der{
+    margin: 0px;
+}
+
+.texto_contacto_der img{
+    width: 5%;
+}
+
+.texto_contacto_izq{
+margin: 0px;
+
+}
+  
+  
+  
+    }
+
+
+
+
+
+  
+
+
+  
+  @media screen and (max-width: 960px) {
+    .columna, input[type=submit] {
+      margin-left: 0;
+    }
+
+    .mapamobile{
+      display:flex;
+  } 
+  
+  #map{
+    width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+    }
+  }
+  
+
+
+
+
+  @media (max-width:768px){
+  
+    .fondocontacto{ 
+    background-image:url("../img/Rectangle14.png");
+    height: 100%;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+#map{
+  width: 768px;
+  height: 1025px;
+}
+
+
+
+input[type=text], select, textarea{
+    width: 200%;
+    
+  }
+
+
+  input[type=email], select, textarea{
+    width: 200%;
+    
+  }
+
+
+
+  input[type=submit] {
+    width: 50%;
+    margin-left: 140px;
+    
+  }
+
+  #mensaje{
+      width: 200%;
+  }
+
+
+
+.contenidoconsulta{
+    margin-left: 0;
+}
+
+
+.contacto_caja{
+    width: 100%;
+    display: block;
+    word-spacing: normal;
+    line-height: normal;
+    
+}
+
+.texto_contacto_der{
+    margin: 0px;
+    width: 80%;
+}
+
+.texto_contacto_der img{
+    width: 5%;
+}
+
+.texto_contacto_izq{
+margin: 0px;
+
+}
+
+
+}
+
+
+
+
+
