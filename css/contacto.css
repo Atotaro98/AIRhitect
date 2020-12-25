@@ -331,6 +331,159 @@ margin: 0px;
 
 }
 
+@media (max-width:425px){
+  
+  .fondocontacto{ 
+  background-image:url("../img/Rectangle14.png");
+  height: 100%;
+  -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+}
+
+#map{
+width: 425px;
+height: 1025px;
+}
+
+
+
+input[type=text], select, textarea{
+  width: 200%;
+  
+}
+
+
+input[type=email], select, textarea{
+  width: 200%;
+  
+}
+
+
+
+input[type=submit] {
+  width: 50%;
+  margin-left: 140px;
+  
+}
+
+#mensaje{
+    width: 200%;
+}
+
+
+
+.contenidoconsulta{
+  margin-left: 0;
+}
+
+
+.contacto_caja{
+  width: 100%;
+  display: block;
+  word-spacing: normal;
+  line-height: normal;
+  
+}
+
+.texto_contacto_izq h2{
+  font-size: 20px;
+}
+
+.texto_contacto_der img{
+  width: 5%;
+}
+.texto_contacto_der{
+margin-left: -100px;
+}
+
+.texto_contacto_izq{
+margin: 0px;
+margin-left: -80px;
+
+}
+
+}
+
+
+@media (max-width:375px){
+  
+  .fondocontacto{ 
+  background-image:url("../img/Rectangle14.png");
+  height: 100%;
+  -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+}
+
+#map{
+width: 375px;
+height: 1025px;
+}
+
+
+
+input[type=text], select, textarea{
+  width: 200%;
+  
+}
+
+
+input[type=email], select, textarea{
+  width: 200%;
+  
+}
+
+
+
+input[type=submit] {
+  width: 50%;
+  margin-left: 140px;
+  
+}
+
+#mensaje{
+    width: 200%;
+}
+
+
+
+.contenidoconsulta{
+  margin-left: 0;
+}
+
+
+.contacto_caja{
+  width: 100%;
+  display: block;
+  word-spacing: normal;
+  line-height: normal;
+  
+}
+
+.texto_contacto_izq h2{
+  font-size: 20px;
+  width: 200%;
+}
+
+.texto_contacto_der img{
+  width: 5%;
+}
+.texto_contacto_der{
+margin-left: -100px;
+}
+
+.texto_contacto_izq{
+margin: 0px;
+margin-left: -80px;
+
+}
+
+}
 
 
 
