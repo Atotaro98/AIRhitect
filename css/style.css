@@ -534,6 +534,31 @@ h1 span{
 }
 
 
+@media (max-width:320px){
+    .proyecto {
+        font-size: 15px;
+    }
+
+    .caja {
+        position: relative;
+        left: 10px;
+        width: 300px;
+        top: 75%;
+    }
+    .proy_name{
+        height: 50%;
+    }
+
+    .proy_name h1{
+        font-size: 20px;
+    }
+
+    .proy_name a{
+        font-size: 17px;
+    }
+}
+
+
 
 
    
